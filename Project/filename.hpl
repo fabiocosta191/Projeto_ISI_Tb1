@@ -440,18 +440,21 @@
     <fields>
       <field>
         <aggregate>Numero_Vendas</aggregate>
-        <subject>License_Plate</subject>
+        <subject>Brand</subject>
         <type>COUNT_ALL</type>
+        <valuefield/>
       </field>
       <field>
         <aggregate>Soma_CO2</aggregate>
         <subject>CO2_Emissions</subject>
         <type>SUM</type>
+        <valuefield/>
       </field>
       <field>
         <aggregate>Media_CO2</aggregate>
         <subject>CO2_Emissions</subject>
         <type>AVERAGE</type>
+        <valuefield/>
       </field>
     </fields>
     <give_back_row>N</give_back_row>
@@ -461,6 +464,7 @@
       </field>
     </group>
     <ignore_aggregate>N</ignore_aggregate>
+    <linenr_fieldname/>
     <prefix>grp</prefix>
     <attributes/>
     <GUI>
@@ -626,6 +630,17 @@
         <precision>0</precision>
         <trim_type>none</trim_type>
       </field>
+      <field>
+        <name>License Plate</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
     </fields>
     <attributes/>
     <GUI>
@@ -763,12 +778,12 @@ putRow(row);
     <join_type>INNER</join_type>
     <keys_1>
       <key>Brand</key>
-      <key>Year</key>
+      <key>License_Plate</key>
       <key>Model</key>
     </keys_1>
     <keys_2>
       <key>Brand</key>
-      <key>Year</key>
+      <key>License Plate</key>
       <key>Model</key>
     </keys_2>
     <transform1>Select values 2</transform1>
@@ -854,6 +869,15 @@ putRow(row);
         <use_regex>Y</use_regex>
         <whole_word>N</whole_word>
       </field>
+      <field>
+        <case_sensitive>N</case_sensitive>
+        <in_stream_name>License Plate</in_stream_name>
+        <is_unicode>N</is_unicode>
+        <replace_string>-</replace_string>
+        <set_empty_string>N</set_empty_string>
+        <use_regex>N</use_regex>
+        <whole_word>N</whole_word>
+      </field>
     </fields>
     <attributes/>
     <GUI>
@@ -878,6 +902,15 @@ putRow(row);
         <in_stream_name>Brand</in_stream_name>
         <is_unicode>N</is_unicode>
         <replace_string> </replace_string>
+        <set_empty_string>N</set_empty_string>
+        <use_regex>N</use_regex>
+        <whole_word>N</whole_word>
+      </field>
+      <field>
+        <case_sensitive>N</case_sensitive>
+        <in_stream_name>License_Plate</in_stream_name>
+        <is_unicode>N</is_unicode>
+        <replace_string>-</replace_string>
         <set_empty_string>N</set_empty_string>
         <use_regex>N</use_regex>
         <whole_word>N</whole_word>
@@ -1034,6 +1067,9 @@ putRow(row);
       <remove>
         <name>Price</name>
       </remove>
+      <remove>
+        <name>License_Plate</name>
+      </remove>
       <select_unspecified>N</select_unspecified>
     </fields>
     <attributes/>
@@ -1146,6 +1182,19 @@ putRow(row);
         <digits>none</digits>
         <remove_special_characters>none</remove_special_characters>
       </field>
+      <field>
+        <in_stream_name>License Plate</in_stream_name>
+        <out_stream_name/>
+        <trim_type>both</trim_type>
+        <lower_upper>upper</lower_upper>
+        <padding_type>none</padding_type>
+        <pad_char/>
+        <pad_len/>
+        <init_cap>no</init_cap>
+        <mask_xml>none</mask_xml>
+        <digits>none</digits>
+        <remove_special_characters>none</remove_special_characters>
+      </field>
     </fields>
     <attributes/>
     <GUI>
@@ -1186,6 +1235,19 @@ putRow(row);
         <padding_type>none</padding_type>
         <pad_char/>
         <pad_len>0</pad_len>
+        <init_cap>no</init_cap>
+        <mask_xml>none</mask_xml>
+        <digits>none</digits>
+        <remove_special_characters>none</remove_special_characters>
+      </field>
+      <field>
+        <in_stream_name>License_Plate</in_stream_name>
+        <out_stream_name/>
+        <trim_type>both</trim_type>
+        <lower_upper>upper</lower_upper>
+        <padding_type>none</padding_type>
+        <pad_char/>
+        <pad_len/>
         <init_cap>no</init_cap>
         <mask_xml>none</mask_xml>
         <digits>none</digits>

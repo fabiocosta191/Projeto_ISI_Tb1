@@ -1,50 +1,50 @@
-Brand,Model,Year,Engine_Size,Fuel_Type,Transmission,Mileage,Doors,Owner_Count,Price,Pollution,CO2_Emissions
-Kia,Rio,2020,4.2L,Diesel,Manual,289944,3,5,8501,High,168g km
-Chevrolet,Malibu,2012,2.0,Hybrid,Automatic,5356,2,3,12092,Medium,95
-Mercedesbenz,GLA,2020,4.2,Gasoleo,Automatic,231440,4,2,11171,High,172
-AUDI,Q5,2023,2.0,Electric,Manual,160971,2,1,11780,Low,0
-Volkswagen,Golf,2003,2.6,Hybrid,Semi-Automatic,286618,3,3,2867,Medium,105
-Toy ota,Camry,2007,2.7,Petrol,Automatic,157889,4,4,7242,High,185
-Honda,Civic,2010,3.4,Electric,Automatic,139584,3,1,11208,Low,0
-Kia,Sportage,2001,4.7,Electric,Semi-Automatic,157495,2,2,7950,Low,0
-Kia,Sportage,2014,2.6,Hybrid,Manual,98700,3,4,9926,Medium,98
-Toyota,RAV4,2005,3.1,Petrol,Manual,107724,2,5,6545,High,195
-B M W,5 Series,2013,1.3,Hybrid,Automatic,296824,2,3,5863,Medium,85
-Volkswagen,Golf,2009,4.5,Hybrid,Manual,42795,4,3,11444,Medium,112
-Honda,CR-V,2007,4.8,Hybrid,Automatic,132875,3,4,10842,Medium,118
-Hyundai,Elantra,2004,2.3,Hybrid,Semi-Automatic,188996,2,1,4820,Medium,93
-Volkswagen,Golf,2004,3.2,Diesel,Automatic,60103,2,1,9697,High,158
-Volkswagen,Golf,2007,3.2,Diesel,Automatic,60103,2,1,9697,High,158
-Hyundai,Elantra,2017,2.9,Electric,Automatic,38133,5,2,14837,Low,0
-Volkswagen,Tiguan,2006,4.5,Electric,Manual,41161,2,2,11576,Low,0
-Kia,Rio,2000,3.4,Diesel,Semi-Automatic,257427,3,3,2351,High,161
-Mercedes,GLA,2021,1.5,Petrol,Manual,34640,2,1,11207,High,150
-Chevrolet,Equinox,2018,1.8,Hybrid,Automatic,21261,2,1,13374,Medium,88
-Toyota,RAV4,2000,4.6,Hybrid,Semi-Automatic,41814,2,2,8863,Medium,116
-Toyota,RAV4,2003,2.0,Electric,Manual,136662,5,4,6266,Low,0
-Ford,Explorer,2006,2.8,Hybrid,Manual,99921,4,2,7701,Medium,98
-Mercedes,GLA,2016,3.9,Petrol,Semi-Automatic,19868,3,4,12402,High,198
-Kia,Sportage,2011,1.8,Diesel,Automatic,92188,2,4,8856,High,137
-Audi,A3,2022,3.3,Electric,Manual,79350,5,3,14413,Low,0
-BMW,3 Series,2017,2.3,Electric,Semi-Automatic,142701,5,3,10645,Low,0
-BMW,3 Series,2020,4.7,Electric,Semi-Automatic,210767,3,3,12584,Low,0
-Chevrolet,Equinox,2013,1.9,Hybrid,Automatic,121816,4,4,9963,Medium,89
-Hyundai,Tucson,2007,3.9,Electric,Automatic,213643,4,5,9327,Low,0
-Volkswagen,Passat,2008,3.5,Electric,Manual,88381,3,1,10232,Low,0
-Chevrolet,Impala,2017,2.3,Petrol,Automatic,183619,5,1,9327,High,166
-Mercedes,GLA,2013,3.3,Electric,Semi-Automatic,80184,3,5,11696,Low,0
-Toyota,Corolla,2010,3.2,Diesel,Automatic,132454,4,4,9150,High,158
-Kia,Optima,2005,4.5,Petrol,Manual,18590,2,5,9728,High,210
-Kia,Sportage,2000,1.4,Electric,Manual,167050,5,4,4159,Low,0
-Ford,Fiesta,2017,2.2,Hybrid,Manual,277363,2,4,6852,Medium,92
-Audi,A4,2004,1.0,Petrol,Manual,94415,2,1,4411,High,140
-Ford,Focus,2004,1.2,Electric,Manual,93645,3,3,6627,Low,0
-BMW,5 Series,2007,4.9,Petrol,Manual,120491,2,1,8690,High,218
-Honda,Civic,2000,3.9,Hybrid,Manual,56020,2,4,7879,Medium,109
-Toyota,RAV4,2003,3.9,Electric,Automatic,131868,5,3,9762,Low,0
-Audi,Q5,2023,3.6,Electric,Manual,238306,5,2,11833,Low,0
-Ford,Focus,2011,2.3,Diesel,Automatic,255372,5,5,6092,High,145
-Hyundai,Elantra,2006,2.8,Electric,Manual,110280,3,3,8494,Low,0
-Audi,A3,2009,1.2,Electric,Automatic,111448,5,1,9271,Low,0
-Mercedes,GLA,2013,1.9,Petrol,Manual,205005,2,2,5799,High,158
-Mercedes,GLA,2011,4.0,Diesel,Manual,140263,4,5,8594,High,170
+Brand,Model,Year,Engine_Size,Fuel_Type,Transmission,Mileage,Doors,Owner_Count,Price,Pollution,CO2_Emissions,License Plate
+Kia,Rio,2020,4.2L,Diesel,Manual,289944,3,5,8501,High,168g km,AB-12-CD
+Chevrolet,Malibu,2012,2.0,Hybrid,Automatic,5356,2,3,12092,Medium,95,CD-34-EF
+Mercedesbenz,GLA,2020,4.2,Gasoleo,Automatic,231440,4,2,11171,High,172,EF-56-GH
+AUDI,Q5,2023,2.0,Electric,Manual,160971,2,1,11780,Low,0,GH-78-IJ
+Volkswagen,Golf,2003,2.6,Hybrid,Semi-Automatic,286618,3,3,2867,Medium,105,IJ-90-KL
+Toy ota,Camry,2007,2.7,Petrol,Automatic,157889,4,4,7242,High,185,KL-12-MN
+Honda,Civic,2010,3.4,Electric,Automatic,139584,3,1,11208,Low,0,MN-34-OP
+Kia,Sportage,2001,4.7,Electric,Semi-Automatic,157495,2,2,7950,Low,0,OP-56-QR
+Kia,Sportage,2014,2.6,Hybrid,Manual,98700,3,4,9926,Medium,98,QR-78-ST
+Toyota,RAV4,2005,3.1,Petrol,Manual,107724,2,5,6545,High,195,ST-90-UV
+B M W,5 Series,2013,1.3,Hybrid,Automatic,296824,2,3,5863,Medium,85,UV-12-WX
+Volkswagen,Golf,2009,4.5,Hybrid,Manual,42795,4,3,11444,Medium,112,WX-34-YZ
+Honda,CR-V,2007,4.8,Hybrid,Automatic,132875,3,4,10842,Medium,118,YZ-56-AB
+Hyundai,Elantra,2004,2.3,Hybrid,Semi-Automatic,188996,2,1,4820,Medium,93,AB-78-CD
+Volkswagen,Golf,2004,3.2,Diesel,Automatic,60103,2,1,9697,High,158,CD-90-EF
+Volkswagen,Golf,2007,3.2,Diesel,Automatic,60103,2,1,9697,High,158,EF-12-GH
+Hyundai,Elantra,2017,2.9,Electric,Automatic,38133,5,2,14837,Low,0,GH-34-IJ
+Volkswagen,Tiguan,2006,4.5,Electric,Manual,41161,2,2,11576,Low,0,IJ-56-KL
+Kia,Rio,2000,3.4,Diesel,Semi-Automatic,257427,3,3,2351,High,161,KL-78-MN
+Mercedes,GLA,2021,1.5,Petrol,Manual,34640,2,1,11207,High,150,MN-90-OP
+Chevrolet,Equinox,2018,1.8,Hybrid,Automatic,21261,2,1,13374,Medium,88,MN-90-OQ
+Toyota,RAV4,2000,4.6,Hybrid,Semi-Automatic,41814,2,2,8863,Medium,116,MN-90-OR
+Toyota,RAV4,2003,2.0,Electric,Manual,136662,5,4,6266,Low,0,MN-90-OS
+Ford,Explorer,2006,2.8,Hybrid,Manual,99921,4,2,7701,Medium,98,MN-90-OT
+Mercedes,GLA,2016,3.9,Petrol,Semi-Automatic,19868,3,4,12402,High,198,MN-90-OU
+Kia,Sportage,2011,1.8,Diesel,Automatic,92188,2,4,8856,High,137,MN-90-OV
+Audi,A3,2022,3.3,Electric,Manual,79350,5,3,14413,Low,0,MN-90-OW
+BMW,3 Series,2017,2.3,Electric,Semi-Automatic,142701,5,3,10645,Low,0,MN-90-OX
+BMW,3 Series,2020,4.7,Electric,Semi-Automatic,210767,3,3,12584,Low,0,MN-90-OY
+Chevrolet,Equinox,2013,1.9,Hybrid,Automatic,121816,4,4,9963,Medium,89,MN-90-OZ
+Hyundai,Tucson,2007,3.9,Electric,Automatic,213643,4,5,9327,Low,0,MN-90-PA
+Volkswagen,Passat,2008,3.5,Electric,Manual,88381,3,1,10232,Low,0,MN-90-PB
+Chevrolet,Impala,2017,2.3,Petrol,Automatic,183619,5,1,9327,High,166,MN-90-PC
+Mercedes,GLA,2013,3.3,Electric,Semi-Automatic,80184,3,5,11696,Low,0,MN-90-PD
+Toyota,Corolla,2010,3.2,Diesel,Automatic,132454,4,4,9150,High,158,MN-90-PE
+Kia,Optima,2005,4.5,Petrol,Manual,18590,2,5,9728,High,210,MN-90-PF
+Kia,Sportage,2000,1.4,Electric,Manual,167050,5,4,4159,Low,0,MN-90-PG
+Ford,Fiesta,2017,2.2,Hybrid,Manual,277363,2,4,6852,Medium,92,MN-90-PH
+Audi,A4,2004,1.0,Petrol,Manual,94415,2,1,4411,High,140,MN-90-PI
+Ford,Focus,2004,1.2,Electric,Manual,93645,3,3,6627,Low,0,MN-90-PJ
+BMW,5 Series,2007,4.9,Petrol,Manual,120491,2,1,8690,High,218,MN-90-PK
+Honda,Civic,2000,3.9,Hybrid,Manual,56020,2,4,7879,Medium,109,MN-90-PL
+Toyota,RAV4,2003,3.9,Electric,Automatic,131868,5,3,9762,Low,0,MN-90-PM
+Audi,Q5,2023,3.6,Electric,Manual,238306,5,2,11833,Low,0,MN-90-PN
+Ford,Focus,2011,2.3,Diesel,Automatic,255372,5,5,6092,High,145,MN-90-PO
+Hyundai,Elantra,2006,2.8,Electric,Manual,110280,3,3,8494,Low,0,MN-90-PP
+Audi,A3,2009,1.2,Electric,Automatic,111448,5,1,9271,Low,0,MN-90-PQ
+Mercedes,GLA,2013,1.9,Petrol,Manual,205005,2,2,5799,High,158,MN-90-PR
+Mercedes,GLA,2011,4.0,Diesel,Manual,140263,4,5,8594,High,170,MN-90-PS
