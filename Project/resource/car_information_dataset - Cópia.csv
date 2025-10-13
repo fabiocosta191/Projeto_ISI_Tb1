@@ -1,9 +1,9 @@
 Brand,Model,Year,Engine_Size,Fuel_Type,Transmission,Mileage,Doors,Owner_Count,Price,Pollution,CO2_Emissions
-Kia,Rio,2020,4.2,Diesel,Manual,289944,3,5,8501,High,168
+K ia,Rio,2020,4.2,Diesel,Manual,289944,3,5,8501,High,168 g kg
 Chevrolet,Malibu,2012,2.0,Hybrid,Automatic,5356,2,3,12092,Medium,95
-Mercedes,GLA,2020,4.2,Diesel,Automatic,231440,4,2,11171,High,172
+Mercedes,GLA,2020,4.2,Gasoleo,Automatic,231440,4,2,11171,High,172
 Audi,Q5,2023,2.0,Electric,Manual,160971,2,1,11780,Low,0
-Volkswagen,Golf,2003,2.6,Hybrid,Semi-Automatic,286618,3,3,2867,Medium,105
+VW,Golf,2003,2.6,Hybrid,Semi-Automatic,286618,3,3,2867,Medium,105
 Toyota,Camry,2007,2.7,Petrol,Automatic,157889,4,4,7242,High,185
 Honda,Civic,2010,3.4,Electric,Automatic,139584,3,1,11208,Low,0
 Kia,Sportage,2001,4.7,Electric,Semi-Automatic,157495,2,2,7950,Low,0
