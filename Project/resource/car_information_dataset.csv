@@ -1,4 +1,4 @@
-Brand,Model,Year,Engine_Size,Fuel_Type,Transmission,Mileage,Doors,Owner_Count,Price,Pollution,CO2_Emissions,License Plate
+Brand,Model,Year,Engine_Size,Fuel_Type,Transmission,Mileage,Doors,Owner_Count,Price,Pollution,CO2_Emissions,License_Plate
 Kia,Rio,2020,4.2L,Diesel,Manual,289944,3,5,8501,High,168g km,AB-12-CD
 Chevrolet,Malibu,2012,2.0,Hybrid,Automatic,5356,2,3,12092,Medium,95,CD-34-EF
 Mercedesbenz,GLA,2020,4.2,Gasoleo,Automatic,231440,4,2,11171,High,172,EF-56-GH

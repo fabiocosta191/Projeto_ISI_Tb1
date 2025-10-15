@@ -250,7 +250,7 @@
     <fields>
       <field>
         <aggregate>Matricula_Anterior</aggregate>
-        <subject>License Plate</subject>
+        <subject>License_Plate</subject>
         <type>LAG</type>
         <valuefield>1</valuefield>
       </field>
@@ -443,7 +443,7 @@
                 <conditions>
 </conditions>
                 <function>IS NOT NULL</function>
-                <leftvalue>License Plate</leftvalue>
+                <leftvalue>License_Plate</leftvalue>
                 <negated>N</negated>
                 <operator>AND</operator>
               </condition>
@@ -565,7 +565,7 @@
                 <conditions>
 </conditions>
                 <function>IS NOT NULL</function>
-                <leftvalue>License Plate</leftvalue>
+                <leftvalue>License_Plate_1</leftvalue>
                 <negated>N</negated>
                 <operator>AND</operator>
               </condition>
@@ -1013,7 +1013,7 @@
         <trim_type>none</trim_type>
       </field>
       <field>
-        <name>License Plate</name>
+        <name>License_Plate</name>
         <type>String</type>
         <format/>
         <currency/>
@@ -1239,7 +1239,7 @@ putRow(row);
         <leftvalue>Matricula_Anterior</leftvalue>
         <negated>N</negated>
         <operator>-</operator>
-        <rightvalue>License Plate</rightvalue>
+        <rightvalue>License_Plate</rightvalue>
       </condition>
     </compare>
     <send_false_to>XML output 2 3</send_false_to>
@@ -1266,7 +1266,7 @@ putRow(row);
       <key>License_Plate</key>
     </keys_1>
     <keys_2>
-      <key>License Plate</key>
+      <key>License_Plate</key>
     </keys_2>
     <transform1>Select values 2</transform1>
     <transform2>Select values</transform2>
@@ -1324,7 +1324,7 @@ putRow(row);
       <schema_name/>
     </partitioning>
     <script>([A-Z][A-Z][0-9][0-9][A-Z][A-Z])|([0-9][0-9][A-Z][A-Z][A-Z][A-Z])|([A-Z][A-Z][A-Z][A-Z][0-9][0-9])|([A-Z][A-Z][0-9][0-9][0-9][0-9])|([0-9][0-9][A-Z][A-Z][0-9][0-9])|([0-9][0-9][0-9][0-9][A-Z][A-Z])</script>
-    <matcher>License Plate</matcher>
+    <matcher>License_Plate</matcher>
     <resultfieldname>formato_valido</resultfieldname>
     <usevar>N</usevar>
     <allowcapturegroups>N</allowcapturegroups>
@@ -1417,7 +1417,7 @@ putRow(row);
       </field>
       <field>
         <case_sensitive>N</case_sensitive>
-        <in_stream_name>License Plate</in_stream_name>
+        <in_stream_name>License_Plate</in_stream_name>
         <is_unicode>N</is_unicode>
         <replace_string>-</replace_string>
         <set_empty_string>N</set_empty_string>
@@ -1426,7 +1426,7 @@ putRow(row);
       </field>
       <field>
         <case_sensitive>N</case_sensitive>
-        <in_stream_name>License Plate</in_stream_name>
+        <in_stream_name>License_Plate</in_stream_name>
         <is_unicode>N</is_unicode>
         <replace_string> </replace_string>
         <set_empty_string>N</set_empty_string>
@@ -1490,7 +1490,14 @@ putRow(row);
     </partitioning>
     <fields>
       <meta>
+        <conversion_mask/>
+        <currency_symbol/>
         <date_format_lenient>N</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <decimal_symbol/>
+        <encoding/>
+        <grouping_symbol/>
         <length>15</length>
         <lenient_string_to_number>N</lenient_string_to_number>
         <name>CO2_Emissions</name>
@@ -1502,7 +1509,13 @@ putRow(row);
       </meta>
       <meta>
         <conversion_mask>0.0</conversion_mask>
+        <currency_symbol/>
         <date_format_lenient>N</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <decimal_symbol/>
+        <encoding/>
+        <grouping_symbol/>
         <length>15</length>
         <lenient_string_to_number>N</lenient_string_to_number>
         <name>Engine_Size</name>
@@ -1513,7 +1526,14 @@ putRow(row);
         <type>Integer</type>
       </meta>
       <meta>
+        <conversion_mask/>
+        <currency_symbol/>
         <date_format_lenient>N</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <decimal_symbol/>
+        <encoding/>
+        <grouping_symbol/>
         <length>-2</length>
         <lenient_string_to_number>N</lenient_string_to_number>
         <name>Brand</name>
@@ -1528,6 +1548,9 @@ putRow(row);
       </remove>
       <remove>
         <name>Matricula_Anterior</name>
+      </remove>
+      <remove>
+        <name>formato_valido</name>
       </remove>
       <select_unspecified>N</select_unspecified>
     </fields>
@@ -1551,7 +1574,13 @@ putRow(row);
     <fields>
       <meta>
         <conversion_mask>yyyy-MM-dd</conversion_mask>
+        <currency_symbol/>
         <date_format_lenient>N</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <decimal_symbol/>
+        <encoding/>
+        <grouping_symbol/>
         <length>-2</length>
         <lenient_string_to_number>N</lenient_string_to_number>
         <name>parsed_date</name>
@@ -1563,7 +1592,13 @@ putRow(row);
       </meta>
       <meta>
         <conversion_mask>yyyy</conversion_mask>
+        <currency_symbol/>
         <date_format_lenient>N</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <decimal_symbol/>
+        <encoding/>
+        <grouping_symbol/>
         <length>-2</length>
         <lenient_string_to_number>N</lenient_string_to_number>
         <name>Year_and_Month</name>
@@ -1574,7 +1609,14 @@ putRow(row);
         <type>Date</type>
       </meta>
       <meta>
+        <conversion_mask/>
+        <currency_symbol/>
         <date_format_lenient>N</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <decimal_symbol/>
+        <encoding/>
+        <grouping_symbol/>
         <length>-2</length>
         <lenient_string_to_number>N</lenient_string_to_number>
         <name>Brand</name>
@@ -1586,6 +1628,9 @@ putRow(row);
       </meta>
       <remove>
         <name>Date_of_Sale</name>
+      </remove>
+      <remove>
+        <name>formato_valido</name>
       </remove>
       <select_unspecified>N</select_unspecified>
     </fields>
@@ -1658,7 +1703,7 @@ putRow(row);
         <case_sensitive>N</case_sensitive>
         <collator_enabled>N</collator_enabled>
         <collator_strength>0</collator_strength>
-        <name>License Plate</name>
+        <name>License_Plate</name>
         <presorted>N</presorted>
       </field>
     </fields>
@@ -1808,7 +1853,7 @@ putRow(row);
         <remove_special_characters>none</remove_special_characters>
       </field>
       <field>
-        <in_stream_name>License Plate</in_stream_name>
+        <in_stream_name>License_Plate</in_stream_name>
         <out_stream_name/>
         <trim_type>both</trim_type>
         <lower_upper>upper</lower_upper>
@@ -1989,8 +2034,8 @@ putRow(row);
     </partitioning>
     <encoding>UTF-8</encoding>
     <name_space/>
-    <xml_main_element>Rows</xml_main_element>
-    <xml_repeat_element>Row</xml_repeat_element>
+    <xml_main_element>Cars</xml_main_element>
+    <xml_repeat_element>Car</xml_repeat_element>
     <file>
       <name>${PROJECT_HOME}/result/null_car.xml</name>
       <extention/>
@@ -2164,7 +2209,7 @@ putRow(row);
       </field>
       <field>
         <content_type>Element</content_type>
-        <name>License Plate</name>
+        <name>License_Plate</name>
         <element/>
         <type>String</type>
         <format/>
@@ -2485,7 +2530,7 @@ putRow(row);
       </field>
       <field>
         <content_type>Element</content_type>
-        <name>License Plate</name>
+        <name>License_Plate</name>
         <element/>
         <type>String</type>
         <format/>
@@ -2652,19 +2697,6 @@ putRow(row);
       </field>
       <field>
         <content_type>Element</content_type>
-        <name>formato_valido</name>
-        <element/>
-        <type>Boolean</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <length>-1</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <content_type>Element</content_type>
         <name>Brand_1</name>
         <element/>
         <type>String</type>
@@ -2808,7 +2840,7 @@ putRow(row);
       </field>
       <field>
         <content_type>Element</content_type>
-        <name>License Plate</name>
+        <name>License_Plate_1</name>
         <element/>
         <type>String</type>
         <format/>
@@ -2824,19 +2856,6 @@ putRow(row);
         <name>Quilometragem_KM</name>
         <element/>
         <type>Number</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <length>-1</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <content_type>Element</content_type>
-        <name>formato_valido_1</name>
-        <element/>
-        <type>Boolean</type>
         <format/>
         <currency/>
         <decimal/>
@@ -2962,19 +2981,6 @@ putRow(row);
       </field>
       <field>
         <content_type>Element</content_type>
-        <name>formato_valido</name>
-        <element/>
-        <type>Boolean</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <length>-1</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <content_type>Element</content_type>
         <name>Brand_1</name>
         <element/>
         <type>String</type>
@@ -3118,7 +3124,7 @@ putRow(row);
       </field>
       <field>
         <content_type>Element</content_type>
-        <name>License Plate</name>
+        <name>License_Plate_1</name>
         <element/>
         <type>String</type>
         <format/>
@@ -3134,19 +3140,6 @@ putRow(row);
         <name>Quilometragem_KM</name>
         <element/>
         <type>Number</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <length>-1</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <content_type>Element</content_type>
-        <name>formato_valido_1</name>
-        <element/>
-        <type>Boolean</type>
         <format/>
         <currency/>
         <decimal/>
