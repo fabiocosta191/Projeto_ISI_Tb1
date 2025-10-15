@@ -121,7 +121,7 @@
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Get data from XML</from>
+      <from>Input_stand_vendas.xml</from>
       <to>Filter rows 2</to>
       <enabled>Y</enabled>
     </hop>
@@ -652,7 +652,7 @@
     </GUI>
   </transform>
   <transform>
-    <name>Get data from XML</name>
+    <name>Input_stand_vendas.xml</name>
     <type>getXMLData</type>
     <description/>
     <distribute>Y</distribute>
@@ -1490,14 +1490,7 @@ putRow(row);
     </partitioning>
     <fields>
       <meta>
-        <conversion_mask/>
-        <currency_symbol/>
         <date_format_lenient>N</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <decimal_symbol/>
-        <encoding/>
-        <grouping_symbol/>
         <length>15</length>
         <lenient_string_to_number>N</lenient_string_to_number>
         <name>CO2_Emissions</name>
@@ -1509,13 +1502,7 @@ putRow(row);
       </meta>
       <meta>
         <conversion_mask>0.0</conversion_mask>
-        <currency_symbol/>
         <date_format_lenient>N</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <decimal_symbol/>
-        <encoding/>
-        <grouping_symbol/>
         <length>15</length>
         <lenient_string_to_number>N</lenient_string_to_number>
         <name>Engine_Size</name>
@@ -1526,14 +1513,7 @@ putRow(row);
         <type>Integer</type>
       </meta>
       <meta>
-        <conversion_mask/>
-        <currency_symbol/>
         <date_format_lenient>N</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <decimal_symbol/>
-        <encoding/>
-        <grouping_symbol/>
         <length>-2</length>
         <lenient_string_to_number>N</lenient_string_to_number>
         <name>Brand</name>
@@ -1574,13 +1554,7 @@ putRow(row);
     <fields>
       <meta>
         <conversion_mask>yyyy-MM-dd</conversion_mask>
-        <currency_symbol/>
         <date_format_lenient>N</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <decimal_symbol/>
-        <encoding/>
-        <grouping_symbol/>
         <length>-2</length>
         <lenient_string_to_number>N</lenient_string_to_number>
         <name>parsed_date</name>
@@ -1592,13 +1566,7 @@ putRow(row);
       </meta>
       <meta>
         <conversion_mask>yyyy</conversion_mask>
-        <currency_symbol/>
         <date_format_lenient>N</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <decimal_symbol/>
-        <encoding/>
-        <grouping_symbol/>
         <length>-2</length>
         <lenient_string_to_number>N</lenient_string_to_number>
         <name>Year_and_Month</name>
@@ -1609,14 +1577,7 @@ putRow(row);
         <type>Date</type>
       </meta>
       <meta>
-        <conversion_mask/>
-        <currency_symbol/>
         <date_format_lenient>N</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <decimal_symbol/>
-        <encoding/>
-        <grouping_symbol/>
         <length>-2</length>
         <lenient_string_to_number>N</lenient_string_to_number>
         <name>Brand</name>
