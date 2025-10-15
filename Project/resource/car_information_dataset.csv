@@ -41,10 +41,10 @@ Audi,A4,2004,1.0,Petrol,Manual,94415,2,1,4411,High,140,MN-90-PI
 Ford,Focus,2004,1.2,Electric,Manual,93645,3,3,6627,Low,0,MN-90-PJ
 BMW,5 Series,2007,4.9,Petrol,Manual,120491,2,1,8690,High,218,MN-90-PK
 Honda,Civic,2000,3.9,Hybrid,Manual,56020,2,4,7879,Medium,109,MN-90-PL
-Toyota,RAV4,2003,3.9,Electric,Automatic,131868,5,3,9762,Low,0,MN-90-PM
-Audi,Q5,2023,3.6,Electric,Manual,238306,5,2,11833,Low,0,MN-90-PN
-Ford,Focus,2011,2.3,Diesel,Automatic,255372,5,5,6092,High,145,MN-90-PO
+Toyota,RAV4,2003,3.9,Electric,Automatic,131868,5,3,9762,Low,0,MN-90-PM1
+Audi,Q5,2023,3.6,Electric,Manual,238306,5,2,11833,Low,0,MN-90-PP
+Ford,Focus,2011,2.3,Diesel,Automatic,255372,5,5,6092,High,145,MN-90-PP
 Hyundai,Elantra,2006,2.8,Electric,Manual,110280,3,3,8494,Low,0,MN-90-PP
-Audi,A3,2009,1.2,Electric,Automatic,111448,5,1,9271,Low,0,MN-90-PQ
-Mercedes,GLA,2013,1.9,Petrol,Manual,205005,2,2,5799,High,158,MN-90-PR
-Mercedes,GLA,2011,4.0,Diesel,Manual,140263,4,5,8594,High,170,MN-90-PS
+Audi,,2009,1.2,Electric,Automatic,111448,5,1,9271,Low,0,MN-90-PR
+Mercedes,GLA,2013,1.9,Petrol,Manual,205005,2,2,5799,High,158,
+,GLA,2011,4.0,Diesel,Manual,140263,4,5,8594,High,170,MN-90-PS

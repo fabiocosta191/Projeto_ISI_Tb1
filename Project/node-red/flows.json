@@ -1,0 +1,93 @@
+[
+    {
+        "id": "0faa89d359f5f781",
+        "type": "function",
+        "z": "5c1a88d58c2f8729",
+        "name": "function 1",
+        "func": "// A mudança está NESTA LINHA: acedemos a msg.payload.data\nconst dadosRecebidos = msg.payload.data;\n\nconst labels = [];\nconst data = [];\n\n// O resto do código funciona perfeitamente\ndadosRecebidos.forEach(item => {\n    labels.push(item.Brand);\n    data.push(item.Media_CO2);\n});\n\nmsg.payload = [{\n    \"series\": [\"Média de Emissões de CO2\"],\n    \"data\": [data],\n    \"labels\": labels\n}];\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 340,
+        "wires": [
+            [
+                "cc2de784426c2f1d"
+            ]
+        ]
+    },
+    {
+        "id": "cc2de784426c2f1d",
+        "type": "ui_chart",
+        "z": "5c1a88d58c2f8729",
+        "name": "",
+        "group": "03c40acc9d759405",
+        "order": 0,
+        "width": "0",
+        "height": "0",
+        "label": "Média de CO2 por Marca",
+        "chartType": "bar",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 710,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "03c40acc9d759405",
+        "type": "ui_group",
+        "name": "",
+        "tab": "6d223beeffc57217",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6d223beeffc57217",
+        "type": "ui_tab",
+        "name": "Relatórios",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "ca5fd53d02daca18",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "node-red-dashboard": "3.6.6"
+        }
+    }
+]
