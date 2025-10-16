@@ -113,11 +113,16 @@ Verificar se os ficheiros de entrada existem ou consultar os logs detalhados do 
       <description/>
       <type>MAIL</type>
       <attributes/>
-      <auth_password>fpht cusj tntx ilze</auth_password>
+      <auth_password/>
       <auth_user>carexpress.suporte@gmail.com</auth_user>
       <check_server_identity>N</check_server_identity>
       <comment>O Job foi executado com sucesso e concluído.</comment>
+      <connectionName/>
+      <contact_persion/>
+      <contact_phone/>
       <destination>a22997@alunos.ipca.pt</destination>
+      <destinationBCc/>
+      <destinationCc/>
       <embeddedimages>
 </embeddedimages>
       <encoding>UTF-8</encoding>
@@ -129,18 +134,21 @@ Verificar se os ficheiros de entrada existem ou consultar os logs detalhados do 
       <only_comment>N</only_comment>
       <port>465</port>
       <priority>normal</priority>
+      <replyToAddresses/>
       <replyto>carexpress.suporte@gmail.com</replyto>
       <replytoname>Sistema ETL CarExpress</replytoname>
       <secureconnectiontype>SSL</secureconnectiontype>
       <sensitivity>normal</sensitivity>
       <server>smtp.gmail.com</server>
       <subject>O assunto do email (ex: "ETL - Processo Concluído com Sucesso").</subject>
+      <trusted_hosts/>
       <use_HTML>N</use_HTML>
       <use_Priority>N</use_Priority>
       <use_auth>Y</use_auth>
       <use_secure_auth>Y</use_secure_auth>
       <usexoauth2>N</usexoauth2>
       <zip_files>N</zip_files>
+      <zip_name/>
       <parallel>N</parallel>
       <xloc>864</xloc>
       <yloc>368</yloc>
@@ -213,6 +221,26 @@ Verificar se os ficheiros de entrada existem ou consultar os logs detalhados do 
     </hop>
   </hops>
   <notepads>
+    <notepad>
+      <backgroundcolorblue>251</backgroundcolorblue>
+      <backgroundcolorgreen>232</backgroundcolorgreen>
+      <backgroundcolorred>201</backgroundcolorred>
+      <bordercolorblue>90</bordercolorblue>
+      <bordercolorgreen>58</bordercolorgreen>
+      <bordercolorred>14</bordercolorred>
+      <fontbold>N</fontbold>
+      <fontcolorblue>90</fontcolorblue>
+      <fontcolorgreen>58</fontcolorgreen>
+      <fontcolorred>14</fontcolorred>
+      <fontitalic>N</fontitalic>
+      <fontname>Segoe UI</fontname>
+      <fontsize>9</fontsize>
+      <height>26</height>
+      <xloc>944</xloc>
+      <yloc>256</yloc>
+      <note>Inserir chave email antes de executar</note>
+      <width>203</width>
+    </notepad>
   </notepads>
   <attributes/>
 </workflow>
