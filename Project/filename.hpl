@@ -33,10 +33,28 @@
       <fontname>Segoe UI</fontname>
       <fontsize>14</fontsize>
       <height>36</height>
-      <xloc>2128</xloc>
-      <yloc>160</yloc>
+      <xloc>1456</xloc>
+      <yloc>976</yloc>
       <note>ativar node-red</note>
       <width>142</width>
+    </notepad>
+    <notepad>
+      <backgroundcolorblue>251</backgroundcolorblue>
+      <backgroundcolorgreen>232</backgroundcolorgreen>
+      <backgroundcolorred>201</backgroundcolorred>
+      <bordercolorblue>90</bordercolorblue>
+      <bordercolorgreen>58</bordercolorgreen>
+      <bordercolorred>14</bordercolorred>
+      <fontbold>N</fontbold>
+      <fontcolorblue>90</fontcolorblue>
+      <fontcolorgreen>58</fontcolorgreen>
+      <fontcolorred>14</fontcolorred>
+      <fontitalic>N</fontitalic>
+      <fontsize>-1</fontsize>
+      <height>20</height>
+      <xloc>2826</xloc>
+      <yloc>426</yloc>
+      <width>20</width>
     </notepad>
   </notepads>
   <order>
@@ -652,149 +670,6 @@
     </GUI>
   </transform>
   <transform>
-    <name>Input_stand_vendas.xml</name>
-    <type>getXMLData</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <include>N</include>
-    <include_field/>
-    <rownum>N</rownum>
-    <addresultfile>N</addresultfile>
-    <namespaceaware>N</namespaceaware>
-    <ignorecomments>N</ignorecomments>
-    <readurl>N</readurl>
-    <validating>N</validating>
-    <usetoken>N</usetoken>
-    <IsIgnoreEmptyFile>N</IsIgnoreEmptyFile>
-    <doNotFailIfNoFile>Y</doNotFailIfNoFile>
-    <rownum_field/>
-    <encoding>UTF-8</encoding>
-    <file>
-      <name>${PROJECT_HOME}/resource/stand_vendas.xml</name>
-      <filemask/>
-      <exclude_filemask/>
-      <file_required>N</file_required>
-      <include_subfolders>N</include_subfolders>
-    </file>
-    <fields>
-      <field>
-        <name>Brand</name>
-        <xpath>Brand</xpath>
-        <element_type>node</element_type>
-        <result_type>valueof</result_type>
-        <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-        <repeat>N</repeat>
-      </field>
-      <field>
-        <name>Model</name>
-        <xpath>Model</xpath>
-        <element_type>node</element_type>
-        <result_type>valueof</result_type>
-        <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-        <repeat>N</repeat>
-      </field>
-      <field>
-        <name>License_Plate</name>
-        <xpath>License_Plate</xpath>
-        <element_type>node</element_type>
-        <result_type>valueof</result_type>
-        <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-        <repeat>N</repeat>
-      </field>
-      <field>
-        <name>Year_and_Month</name>
-        <xpath>Year_and_Month</xpath>
-        <element_type>node</element_type>
-        <result_type>valueof</result_type>
-        <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-        <repeat>N</repeat>
-      </field>
-      <field>
-        <name>Date_of_Sale</name>
-        <xpath>Date_of_Sale</xpath>
-        <element_type>node</element_type>
-        <result_type>valueof</result_type>
-        <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-        <repeat>N</repeat>
-      </field>
-      <field>
-        <name>Sale_Price</name>
-        <xpath>Sale_Price</xpath>
-        <element_type>node</element_type>
-        <result_type>valueof</result_type>
-        <type>Integer</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-        <repeat>N</repeat>
-      </field>
-    </fields>
-    <limit>0</limit>
-    <loopxpath>/Cars/Car</loopxpath>
-    <IsInFields>N</IsInFields>
-    <IsAFile>N</IsAFile>
-    <XmlField/>
-    <prunePath/>
-    <shortFileFieldName/>
-    <pathFieldName/>
-    <hiddenFieldName/>
-    <lastModificationTimeFieldName/>
-    <uriNameFieldName/>
-    <rootUriNameFieldName/>
-    <extensionFieldName/>
-    <sizeFieldName/>
-    <attributes/>
-    <GUI>
-      <xloc>80</xloc>
-      <yloc>416</yloc>
-    </GUI>
-  </transform>
-  <transform>
     <name>Group by</name>
     <type>GroupBy</type>
     <description/>
@@ -813,31 +688,37 @@
         <aggregate>Numero_Vendas</aggregate>
         <subject>Brand</subject>
         <type>COUNT_ALL</type>
+        <valuefield/>
       </field>
       <field>
         <aggregate>Soma_CO2</aggregate>
         <subject>CO2_Emissions</subject>
         <type>SUM</type>
+        <valuefield/>
       </field>
       <field>
         <aggregate>Media_CO2</aggregate>
         <subject>CO2_Emissions</subject>
         <type>AVERAGE</type>
+        <valuefield/>
       </field>
       <field>
         <aggregate>Media_Valor</aggregate>
         <subject>Sale_Price</subject>
         <type>AVERAGE</type>
+        <valuefield/>
       </field>
       <field>
         <aggregate>Menor_Valor</aggregate>
         <subject>Sale_Price</subject>
         <type>MIN</type>
+        <valuefield/>
       </field>
       <field>
         <aggregate>Maior_Valor</aggregate>
         <subject>Sale_Price</subject>
         <type>MAX</type>
+        <valuefield/>
       </field>
     </fields>
     <give_back_row>N</give_back_row>
@@ -847,6 +728,7 @@
       </field>
     </group>
     <ignore_aggregate>N</ignore_aggregate>
+    <linenr_fieldname/>
     <prefix>grp</prefix>
     <attributes/>
     <GUI>
@@ -1028,6 +910,149 @@
     <GUI>
       <xloc>80</xloc>
       <yloc>240</yloc>
+    </GUI>
+  </transform>
+  <transform>
+    <name>Input_stand_vendas.xml</name>
+    <type>getXMLData</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <include>N</include>
+    <include_field/>
+    <rownum>N</rownum>
+    <addresultfile>N</addresultfile>
+    <namespaceaware>N</namespaceaware>
+    <ignorecomments>N</ignorecomments>
+    <readurl>N</readurl>
+    <validating>N</validating>
+    <usetoken>N</usetoken>
+    <IsIgnoreEmptyFile>N</IsIgnoreEmptyFile>
+    <doNotFailIfNoFile>Y</doNotFailIfNoFile>
+    <rownum_field/>
+    <encoding>UTF-8</encoding>
+    <file>
+      <name>${PROJECT_HOME}/resource/stand_vendas.xml</name>
+      <filemask/>
+      <exclude_filemask/>
+      <file_required>N</file_required>
+      <include_subfolders>N</include_subfolders>
+    </file>
+    <fields>
+      <field>
+        <name>Brand</name>
+        <xpath>Brand</xpath>
+        <element_type>node</element_type>
+        <result_type>valueof</result_type>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+      </field>
+      <field>
+        <name>Model</name>
+        <xpath>Model</xpath>
+        <element_type>node</element_type>
+        <result_type>valueof</result_type>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+      </field>
+      <field>
+        <name>License_Plate</name>
+        <xpath>License_Plate</xpath>
+        <element_type>node</element_type>
+        <result_type>valueof</result_type>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+      </field>
+      <field>
+        <name>Year_and_Month</name>
+        <xpath>Year_and_Month</xpath>
+        <element_type>node</element_type>
+        <result_type>valueof</result_type>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+      </field>
+      <field>
+        <name>Date_of_Sale</name>
+        <xpath>Date_of_Sale</xpath>
+        <element_type>node</element_type>
+        <result_type>valueof</result_type>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+      </field>
+      <field>
+        <name>Sale_Price</name>
+        <xpath>Sale_Price</xpath>
+        <element_type>node</element_type>
+        <result_type>valueof</result_type>
+        <type>Integer</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+      </field>
+    </fields>
+    <limit>0</limit>
+    <loopxpath>/Cars/Car</loopxpath>
+    <IsInFields>N</IsInFields>
+    <IsAFile>N</IsAFile>
+    <XmlField/>
+    <prunePath/>
+    <shortFileFieldName/>
+    <pathFieldName/>
+    <hiddenFieldName/>
+    <lastModificationTimeFieldName/>
+    <uriNameFieldName/>
+    <rootUriNameFieldName/>
+    <extensionFieldName/>
+    <sizeFieldName/>
+    <attributes/>
+    <GUI>
+      <xloc>80</xloc>
+      <yloc>416</yloc>
     </GUI>
   </transform>
   <transform>
@@ -1512,17 +1537,6 @@ putRow(row);
         <storage_type/>
         <type>Integer</type>
       </meta>
-      <meta>
-        <date_format_lenient>N</date_format_lenient>
-        <length>-2</length>
-        <lenient_string_to_number>N</lenient_string_to_number>
-        <name>Brand</name>
-        <precision>-2</precision>
-        <rename>Brand</rename>
-        <roundingType>half_even</roundingType>
-        <storage_type/>
-        <type>String</type>
-      </meta>
       <remove>
         <name>Mileage</name>
       </remove>
@@ -1575,17 +1589,6 @@ putRow(row);
         <roundingType>half_even</roundingType>
         <storage_type/>
         <type>Date</type>
-      </meta>
-      <meta>
-        <date_format_lenient>N</date_format_lenient>
-        <length>-2</length>
-        <lenient_string_to_number>N</lenient_string_to_number>
-        <name>Brand</name>
-        <precision>-2</precision>
-        <rename>Brand</rename>
-        <roundingType>half_even</roundingType>
-        <storage_type/>
-        <type>String</type>
       </meta>
       <remove>
         <name>Date_of_Sale</name>

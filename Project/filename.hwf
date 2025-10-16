@@ -94,8 +94,8 @@ Verificar se os ficheiros de entrada existem ou consultar os logs detalhados do 
       <logsubject>ERRO na execução do Job: ${Internal.Job.Name}
 </logsubject>
       <parallel>N</parallel>
-      <xloc>608</xloc>
-      <yloc>240</yloc>
+      <xloc>688</xloc>
+      <yloc>208</yloc>
       <attributes_hac/>
     </action>
     <action>
@@ -117,12 +117,7 @@ Verificar se os ficheiros de entrada existem ou consultar os logs detalhados do 
       <auth_user>carexpress.suporte@gmail.com</auth_user>
       <check_server_identity>N</check_server_identity>
       <comment>O Job foi executado com sucesso e concluído.</comment>
-      <connectionName/>
-      <contact_persion/>
-      <contact_phone/>
       <destination>a22997@alunos.ipca.pt</destination>
-      <destinationBCc/>
-      <destinationCc/>
       <embeddedimages>
 </embeddedimages>
       <encoding>UTF-8</encoding>
@@ -134,21 +129,18 @@ Verificar se os ficheiros de entrada existem ou consultar os logs detalhados do 
       <only_comment>N</only_comment>
       <port>465</port>
       <priority>normal</priority>
-      <replyToAddresses/>
       <replyto>carexpress.suporte@gmail.com</replyto>
       <replytoname>Sistema ETL CarExpress</replytoname>
       <secureconnectiontype>SSL</secureconnectiontype>
       <sensitivity>normal</sensitivity>
       <server>smtp.gmail.com</server>
       <subject>O assunto do email (ex: "ETL - Processo Concluído com Sucesso").</subject>
-      <trusted_hosts/>
       <use_HTML>N</use_HTML>
       <use_Priority>N</use_Priority>
       <use_auth>Y</use_auth>
       <use_secure_auth>Y</use_secure_auth>
       <usexoauth2>N</usexoauth2>
       <zip_files>N</zip_files>
-      <zip_name/>
       <parallel>N</parallel>
       <xloc>864</xloc>
       <yloc>368</yloc>
